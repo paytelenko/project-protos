@@ -10,6 +10,8 @@ message Task {
 
 message CreateTaskRequest {
   string title = 1;
+  string password = 2;
+
 }
 message CreateTaskResponse {
   Task task = 1;
