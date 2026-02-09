@@ -26,9 +26,7 @@ message UpdateTaskResponse {
 message DeleteTaskRequest{
     uint32 id = 1;
 }
-message DeleteTaskResponse {
-    bool success = 1; 
-}
+message DeleteTaskResponse {}
 
 message ListTasksRequest {
     //пустой запрос
